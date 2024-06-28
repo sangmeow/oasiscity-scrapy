@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "start:dev": "npx ts-node puppeteer.ts",
+    "start:prod": "tsc --build --clean && tsc --build && node puppeteer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "puppeteer": "^22.12.1"
+  }
+}
